@@ -1,3 +1,6 @@
 class Book
-p "UMMMMMMM"
-end 
+  def initialize(name, author)
+    @name = name
+    @author = author
+  end
+end
